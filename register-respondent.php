@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "db_connect.php";
+require_once "db-connect.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])) {
     $name = $_POST['name'];
